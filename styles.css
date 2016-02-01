@@ -66,7 +66,7 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 60px;
+  margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
@@ -83,8 +83,8 @@ header .profile-image:hover {
   border-radius: 5px;
   border: 3px solid white;
   display: table;
-  margin: 10px auto;
-} 
+  margin: 20px auto;
+}
 .location {
   background-color: rgba(255,255,255,0.0);
   color: white;
@@ -163,11 +163,36 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+a.facebook {
+  background-image: url(images/facebook.svg);
+}
+a.skype {
+  background-image: url(images/skype.svg);
+}
+a.phone {
+  background-image: url(images/phone.svg);
+}
 a.social:hover {
   opacity: 1;
 }
 .clearfix {
   clear: both;
+}
+
+/* Contact page */
+
+header .corona {
+  background: url('images/corona.jpg') no-repeat top center;
+}
+
+ul.contacts {
+  text-align: left;
+  padding: 0;
+}
+.contacts li {
+  display: inline-block;
+  margin-left: 8px;
+  padding-top: 10px;
 }
 
 /* Styles for larger screens */
