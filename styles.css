@@ -60,13 +60,13 @@ header {
   background: url('images/ggb.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 60px;
   width: 150px;
   height: 150px;
   border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
@@ -181,10 +181,6 @@ a.social:hover {
 
 /* Contact page */
 
-header .corona {
-  background: url('images/corona.jpg') no-repeat top center;
-}
-
 ul.contacts {
   text-align: left;
   padding: 0;
@@ -193,6 +189,13 @@ ul.contacts {
   display: inline-block;
   margin-left: 8px;
   padding-top: 10px;
+}
+
+/* Contact page */
+
+
+.soon:hover {
+  border-color: #ff99ff;
 }
 
 /* Styles for larger screens */
